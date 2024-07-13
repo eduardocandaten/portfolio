@@ -1,0 +1,32 @@
+:root {
+  /* Colors */
+  --white: #FFFFFF;
+  --gray-1: #F7F7F7;
+  --gray-2: #EDEDED;
+  --gray-3: #DEDEDE;
+  --gray-4: #CCCCCC;
+  --gray-5: #B2B2B2;
+  --gray-6: #717171;
+  --gray-7: #595959;
+  --gray-8: #404040;
+  --gray-9: #2E2E2E;
+  --gray-10: #111111;
+  --black: #000000;
+
+  /* Typography */
+  --font-1-xl: 700 4rem/1.2 "Josefin Sans", sans-serif;
+  --font-1-l: 700 2.5rem/1.2 "Josefin Sans", sans-serif;
+  --font-1-m: 700 1.5rem/1.35 "Josefin Sans", sans-serif;
+  --font-1-s: 400 1.25rem/1.6 "Josefin Sans", sans-serif;
+  --font-1-s-b: 600 1.25rem/1.6 "Josefin Sans", sans-serif;
+  --font-2-m: 400 1.5rem/1.4 "SF Pro Display", sans-serif;
+  --font-2-s: 400 1.25rem/1.4 "SF Pro Display", sans-serif;
+  --font-2-s-b: 500 1.25rem/1.4 "SF Pro Display", sans-serif;
+  --font-2-xs: 500 1rem/2 "SF Pro Display", sans-serif;
+
+  /* Shadow */
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.10);
+
+  /* Border */
+  --border-1: 1px solid var(--gray-2);
+}
