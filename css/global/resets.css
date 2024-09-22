@@ -31,3 +31,9 @@ button {
   border: none;
   background: none;
 }
+
+@media (max-width: 800px) {
+  body {
+    padding-top: var(--size-120);
+  }
+}

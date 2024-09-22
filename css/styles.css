@@ -7,3 +7,6 @@
 
 /* Header */
 @import "./header.css";
+
+/* Home */
+@import "./home/introducao.css";

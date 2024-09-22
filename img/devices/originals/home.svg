@@ -1,0 +1,33 @@
+<svg width="1160" height="600" viewBox="0 0 1160 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1160" height="600" rx="16" fill="url(#paint0_linear_93_34)"/>
+<path d="M324 80C324 60.1177 340.118 44 360 44H1080C1099.88 44 1116 60.1178 1116 80V540C1116 548.837 1108.84 556 1100 556H340C331.163 556 324 548.837 324 540V80Z" fill="white" stroke="black" stroke-width="8"/>
+<path d="M680 48H760V58C760 63.5228 755.523 68 750 68H690C684.477 68 680 63.5228 680 58V48Z" fill="black"/>
+<path d="M300 544C300 541.791 301.791 540 304 540H1136C1138.21 540 1140 541.791 1140 544V548C1140 554.627 1134.63 560 1128 560H312C305.373 560 300 554.627 300 548V544Z" fill="black"/>
+<path d="M600 540H840V544C840 546.209 838.209 548 836 548H604C601.791 548 600 546.209 600 544V540Z" fill="#404040"/>
+<rect x="360" y="88" width="32" height="32" rx="16" fill="#DEDEDE"/>
+<rect x="360" y="160" width="200" height="32" rx="16" fill="#DEDEDE"/>
+<rect x="360" y="212" width="720" height="200" rx="16" fill="#DEDEDE"/>
+<path d="M360 452C360 443.163 367.163 436 376 436H684C692.837 436 700 443.163 700 452V540H360V452Z" fill="#DEDEDE"/>
+<path d="M740 452C740 443.163 747.163 436 756 436H1064C1072.84 436 1080 443.163 1080 452V540H740V452Z" fill="#DEDEDE"/>
+<rect x="1048" y="88" width="32" height="32" rx="16" fill="#DEDEDE"/>
+<rect x="992" y="88" width="32" height="32" rx="16" fill="#DEDEDE"/>
+<rect x="44" y="44" width="252" height="512" rx="36" fill="white" stroke="black" stroke-width="8"/>
+<rect x="60" y="448" width="65" height="80" rx="10" fill="#DEDEDE"/>
+<rect x="137" y="448" width="65" height="80" rx="10" fill="#DEDEDE"/>
+<rect x="214" y="448" width="66" height="80" rx="10" fill="#DEDEDE"/>
+<rect x="60" y="140" width="120" height="20" rx="10" fill="#DEDEDE"/>
+<rect x="60" y="416" width="120" height="20" rx="10" fill="#DEDEDE"/>
+<rect x="60" y="172" width="220" height="80" rx="10" fill="#DEDEDE"/>
+<rect x="60" y="264" width="104" height="120" rx="10" fill="#DEDEDE"/>
+<rect x="176" y="264" width="104" height="120" rx="10" fill="#DEDEDE"/>
+<rect x="60" y="88" width="20" height="20" rx="10" fill="#DEDEDE"/>
+<rect x="260" y="88" width="20" height="20" rx="10" fill="#DEDEDE"/>
+<rect x="228" y="88" width="20" height="20" rx="10" fill="#DEDEDE"/>
+<rect x="130" y="56" width="80" height="20" rx="10" fill="black"/>
+<defs>
+<linearGradient id="paint0_linear_93_34" x1="580" y1="600" x2="572.947" y2="0.0828964" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0055CC"/>
+<stop offset="1" stop-color="#0088FF"/>
+</linearGradient>
+</defs>
+</svg>
