@@ -3,3 +3,7 @@
 @import "./global/colors.css";
 @import "./global/sizes.css";
 @import "./global/typography.css";
+@import "./global/components.css";
+
+/* Header */
+@import "./header.css";

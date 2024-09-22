@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  padding-top: var(--size-200);
+}
+
 ul {
   list-style: none;
 }
@@ -14,7 +18,8 @@ a {
   color: inherit;
 }
 
-img {
+img,
+svg {
   display: block;
   max-width: 100%;
   max-height: 100%;
@@ -25,5 +30,4 @@ button {
   cursor: pointer;
   border: none;
   background: none;
-  padding: 0;
 }

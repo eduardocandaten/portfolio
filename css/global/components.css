@@ -1,0 +1,34 @@
+.conteiner {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: var(--size-200);
+  padding-left: var(--size-40);
+  padding-right: var(--size-40);
+}
+
+.border-1 {
+  border: 1px solid var(--gray-2);
+}
+
+.radius-1 {
+  border-radius: var(--size-16);
+}
+
+.rounded {
+  border-radius: 200px;
+}
+
+@media (max-width: 1200px) {
+  .conteiner {
+    margin-left: var(--size-20);
+    margin-right: var(--size-20);
+  }
+}
+
+@media (max-width: 800px) {
+  .conteiner {
+    padding-left: var(--size-20);
+    padding-right: var(--size-20);
+  }
+}

@@ -13,4 +13,10 @@
   --black: #000000;
 
   --primary-1: #0088FF;
+  --primary-2: #0055CC;
+  --gradient-x: linear-gradient(to right, #0088FF, #0055CC);
+  --gradient-y: linear-gradient(to bottom, #0088FF, #0055CC);
+
+  --white-blur: rgba(255, 255, 255, 0.60);
+  --blur: blur(var(--size-16));
 }
