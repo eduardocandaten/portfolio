@@ -1,0 +1,15 @@
+:root {
+  --size-04: 0.25rem;
+  --size-08: 0.5rem;
+  --size-12: 0.75rem;
+  --size-16: 1rem;
+  --size-20: 1.25rem;
+  --size-24: 1.5rem;
+  --size-32: 2rem;
+  --size-40: 2.5rem;
+  --size-48: 3rem;
+  --size-60: 3.75rem;
+  --size-80: 5rem;
+  --size-120: 7.5rem;
+  --size-200: 12.5rem;
+}

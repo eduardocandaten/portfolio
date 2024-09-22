@@ -1,0 +1,13 @@
+<svg width="840" height="520" viewBox="0 0 840 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 40C24 20.1177 40.1178 4 60 4H780C799.882 4 816 20.1178 816 40V500C816 508.837 808.837 516 800 516H40C31.1634 516 24 508.837 24 500V40Z" fill="white" stroke="black" stroke-width="8"/>
+<path d="M380 8H460V18C460 23.5228 455.523 28 450 28H390C384.477 28 380 23.5228 380 18V8Z" fill="black"/>
+<path d="M0 504C0 501.791 1.79086 500 4 500H836C838.209 500 840 501.791 840 504V508C840 514.627 834.627 520 828 520H12C5.37256 520 0 514.627 0 508V504Z" fill="black"/>
+<path d="M300 500H540V504C540 506.209 538.209 508 536 508H304C301.791 508 300 506.209 300 504V500Z" fill="#404040"/>
+<rect x="60" y="48" width="32" height="32" rx="16" fill="#DEDEDE"/>
+<rect x="60" y="120" width="200" height="32" rx="16" fill="#DEDEDE"/>
+<rect x="60" y="172" width="720" height="200" rx="16" fill="#DEDEDE"/>
+<path d="M60 412C60 403.163 67.1634 396 76 396H384C392.837 396 400 403.163 400 412V500H60V412Z" fill="#DEDEDE"/>
+<path d="M440 412C440 403.163 447.163 396 456 396H764C772.837 396 780 403.163 780 412V500H440V412Z" fill="#DEDEDE"/>
+<rect x="748" y="48" width="32" height="32" rx="16" fill="#DEDEDE"/>
+<rect x="692" y="48" width="32" height="32" rx="16" fill="#DEDEDE"/>
+</svg>
