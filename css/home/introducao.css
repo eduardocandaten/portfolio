@@ -5,6 +5,11 @@
   gap: var(--size-40);
 }
 
+.introducao-links {
+  display: flex;
+  gap: var(--size-12);
+}
+
 .introducao img {
   grid-column: span 2;
 }
