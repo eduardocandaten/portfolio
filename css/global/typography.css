@@ -3,10 +3,23 @@ body {
   color: var(--gray-10);
 }
 
+.font-xxxl {
+  font-size: 5rem;
+  line-height: 1;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 .font-xl {
   font-size: 2.5rem;
   line-height: 1.2;
   font-weight: 700;
+}
+
+.font-l {
+  font-size: 1.5rem;
+  line-height: 1.35;
+  font-weight: 400;
 }
 
 .font-m-b {
@@ -15,10 +28,28 @@ body {
   font-weight: 500;
 }
 
+@media (max-width: 1200px) {
+  .font-xxxl {
+    font-size: 4rem;
+  }
+
+  .font-l {
+    font-size: 1.25rem;
+  }
+}
+
 @media (max-width: 1000px) {
   .font-xl {
     font-size: 2rem;
-    line-height: 1.2;
-    font-weight: 700;
   }
+}
+
+@media (max-width: 800px) {
+  .font-xxxl {
+    font-size: 3rem;
+  }
+
+  /* .font-l {
+    font-size: 1rem;
+  } */
 }

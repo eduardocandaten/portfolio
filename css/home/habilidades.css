@@ -1,0 +1,48 @@
+.habilidades {
+  display: grid;
+  gap: var(--size-80);
+}
+
+.habilidades li {
+  display: flex;
+  align-items: center;
+  gap: var(--size-40);
+  margin-bottom: var(--size-60);
+}
+
+.habilidades li h3 {
+  background: var(--gradient-x) text;
+  -webkit-text-fill-color: transparent;
+}
+
+.habilidades li p {
+  color: var(--gray-8);
+}
+
+@media (max-width: 1200px) {
+  .habilidades {
+    gap: var(--size-60);
+  }
+
+  .habilidades li {
+    gap: var(--size-32);
+    margin-bottom: var(--size-40);
+  }
+}
+
+@media (max-width: 800px) {
+  .habilidades {
+    gap: var(--size-40);
+  }
+
+  .habilidades li {
+    flex-direction: column;
+    align-items: start;
+    gap: var(--size-12);
+    margin-bottom: var(--size-32);
+  }
+
+  .habilidades li h3 {
+    background: var(--gradient-y) text;
+  }
+}
