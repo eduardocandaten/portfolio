@@ -16,3 +16,6 @@
 @import "./home/habilidades.css";
 @import "./home/projetos.css";
 @import "./home/formacao.css";
+
+/* Projeto Interno */
+@import "./projeto.css";
