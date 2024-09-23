@@ -8,6 +8,9 @@
 /* Header */
 @import "./header.css";
 
+/* Footer */
+@import "./footer.css";
+
 /* Home */
 @import "./home/introducao.css";
 @import "./home/habilidades.css";
