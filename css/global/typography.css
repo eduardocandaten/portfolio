@@ -22,6 +22,12 @@ body {
   font-weight: 400;
 }
 
+.font-l-b {
+  font-size: 1.5rem;
+  line-height: 1.35;
+  font-weight: 600;
+}
+
 .font-m-b {
   font-size: 1rem;
   line-height: 1.5;
@@ -48,8 +54,4 @@ body {
   .font-xxxl {
     font-size: 3rem;
   }
-
-  /* .font-l {
-    font-size: 1rem;
-  } */
 }

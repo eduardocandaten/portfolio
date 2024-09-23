@@ -1,6 +1,5 @@
-.habilidades {
-  display: grid;
-  gap: var(--size-80);
+.habilidades h2 {
+  margin-bottom: var(--size-80);
 }
 
 .habilidades li {
@@ -20,8 +19,8 @@
 }
 
 @media (max-width: 1200px) {
-  .habilidades {
-    gap: var(--size-60);
+  .habilidades h2 {
+    margin-bottom: var(--size-60);
   }
 
   .habilidades li {
@@ -31,8 +30,9 @@
 }
 
 @media (max-width: 800px) {
-  .habilidades {
-    gap: var(--size-40);
+  .habilidades h2 {
+    margin-bottom: var(--size-40);
+
   }
 
   .habilidades li {
