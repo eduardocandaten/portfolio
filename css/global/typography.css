@@ -28,6 +28,12 @@ body {
   font-weight: 600;
 }
 
+.font-m {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
 .font-m-b {
   font-size: 1rem;
   line-height: 1.5;
