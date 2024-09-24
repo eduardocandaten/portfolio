@@ -48,6 +48,7 @@
   padding: var(--size-24);
   padding-bottom: 0;
   background: var(--white);
+  border-bottom: none;
   transition: opacity 0.4s, max-height 0.4s;
 }
 
