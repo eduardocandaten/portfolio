@@ -10,6 +10,9 @@
 @import "./components/footer.css";
 @import "./components/introduction.css";
 
+/* Animation */
+@import "./animation/simple-anime.css";
+
 /* Home */
 @import "./home/skills.css";
 @import "./home/projects.css";
@@ -17,3 +20,6 @@
 
 /* Project Internal */
 @import "./projects/project-internal.css";
+
+/* Animation */
+@import "./animation/simple-anime.css";

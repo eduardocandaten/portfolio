@@ -19,21 +19,21 @@
       <a class="font-primary bold font-32" href="./index.html">Eduardo</a>
 
       <nav class="header-menu font-primary font-16 medium">
-        <a href="./index.html#projects">Experiência</a>
-        <a href="./index.html#training">Formação</a>
+        <a href="#projects">Experiência</a>
+        <a href="#training">Formação</a>
         <a href="#contact">Contato</a>
       </nav>
     </div>
   </header>
 
   <main class="introduction conteiner">
-    <h1 class="font-primary font-48 bold">Desenvolvedor Front End & UI Designer</h1>
+    <h1 class="font-primary font-48 bold fade-in-down" data-anime="200">Desenvolvedor Front End & UI Designer</h1>
 
-    <div class="introduction-links">
+    <div class="introduction-links fade-in-down" data-anime="400">
       <a class="button-primary" href="#projects">Meus projetos</a>
     </div>
 
-    <picture>
+    <picture class="fade-in-down" data-anime="600">
       <source media="(width > 800px)" srcset="./img/devices/home.svg">
       <img src="./img/devices/home.svg" alt="Celular e Notebook">
     </picture>
@@ -212,6 +212,10 @@
 
     <p class="footer-copy font-secundary font-16 regular color-8">Eduardo Candaten © 2024 - Todos os direitos</p>
   </footer>
+
+  <script src="./js/smooth-scroll.js"></script>
+  <script src="./js/plugins/simple-anime.js"></script>;
+  <script>new SimpleAnime();</script>
 </body>
 
 </html>
