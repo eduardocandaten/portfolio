@@ -1,4 +1,4 @@
-const links = document.querySelectorAll('.header-menu a[href^="#"]');
+const links = document.querySelectorAll('a[href^="#"]');
 
 links.forEach((link) => {
   link.addEventListener('click', function (event) {
