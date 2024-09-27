@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header a {
+  transition: color 0.3s;
+}
+
+.header a:hover {
+  color: var(--primary-1);
+}
+
+.header-menu {
+  display: flex;
+  gap: 40px;
+}
+
+@media (width < 600px) {
+  .header {
+    flex-wrap: wrap;
+    gap: 20px 40px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .header-menu {
+    padding-bottom: 20px;
+    overflow-y: auto;
+    gap: 20px;
+    justify-content: start;
+  }
+
+  .header-menu a {
+    background: var(--gray-1);
+    padding: 12px 20px;
+    border-radius: 8px;
+    transition: background 0.3s;
+  }
+
+  .header-menu a:hover {
+    color: initial;
+    background: var(--gray-2);
+  }
+}

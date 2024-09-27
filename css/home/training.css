@@ -1,0 +1,56 @@
+.training h2 {
+  margin-bottom: 40px;
+}
+
+.training-conteiner {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  gap: 40px 80px;
+  padding: 80px;
+  border-radius: 8px;
+}
+
+.training-conteiner h3 {
+  grid-row: 1;
+  text-align: center;
+}
+
+.training-conteiner ul {
+  display: grid;
+  gap: 16px;
+  justify-self: center;
+  align-self: start;
+}
+
+.training-conteiner li {
+  display: flex;
+  align-items: center;
+  width: 240px;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.training-conteiner li:not(:last-child) {
+  padding-bottom: 16px;
+  border-bottom: 2px solid var(--primary-1);
+}
+
+.training-conteiner li img {
+  transition: transform 0.3s;
+}
+
+.training-conteiner li img:hover {
+  transform: rotate(180deg);
+}
+
+@media (width < 800px) {
+  .training-conteiner {
+    grid-template-columns: 1fr;
+    padding: 60px;
+  }
+
+  .training-conteiner h3 {
+    grid-row: initial;
+  }
+}

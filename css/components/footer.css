@@ -1,0 +1,51 @@
+.footer {
+  display: grid;
+  grid-template-columns: 400px auto;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.footer-msg {
+  background: var(--gradient-x) text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-contact a:nth-child(1),
+.footer-contact a:nth-child(2) {
+  display: block;
+  margin-right: 0;
+  transition: color 0.3s;
+}
+
+.footer-contact a {
+  margin-bottom: 20px;
+  margin-right: 32px;
+}
+
+.footer-contact a:hover {
+  color: var(--primary-1);
+}
+
+.footer-copy {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+@media (width < 1000px) {
+  .footer {
+    grid-template-columns: 400px;
+    text-align: center;
+  }
+
+  .footer-contact a:last-child {
+    margin-right: 0;
+  }
+}
+
+@media (width < 600px) {
+  .footer {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

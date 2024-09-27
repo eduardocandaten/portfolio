@@ -1,0 +1,14 @@
+.skills h2 {
+  margin-bottom: 40px;
+}
+
+.skills ul {
+  display: grid;
+  gap: 20px;
+}
+
+.skills h3 {
+  text-transform: uppercase;
+  background: var(--gradient-y) text;
+  -webkit-text-fill-color: transparent;
+}

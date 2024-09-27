@@ -1,0 +1,36 @@
+.introduction {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 40px;
+}
+
+.introduction h1 {
+  max-width: 20ch;
+}
+
+.introduction-links {
+  display: flex;
+  gap: 12px;
+}
+
+.introduction picture {
+  grid-column: 1 / -1;
+}
+
+.introduction img {
+  border-radius: 8px;
+}
+
+@media (width < 1000px) {
+  .introduction {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+@media (width < 600px) {
+  .introduction-links {
+    grid-row: 3;
+  }
+}

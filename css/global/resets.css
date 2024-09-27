@@ -5,7 +5,8 @@
 }
 
 body {
-  padding-top: var(--size-200);
+  font-family: "Inter", sans-serif;
+  color: var(--gray-10);
 }
 
 ul {
@@ -13,7 +14,7 @@ ul {
 }
 
 a {
-  display: block;
+  display: inline-block;
   text-decoration: none;
   color: inherit;
 }
@@ -30,10 +31,4 @@ button {
   cursor: pointer;
   border: none;
   background: none;
-}
-
-@media (max-width: 800px) {
-  body {
-    padding-top: var(--size-120);
-  }
 }

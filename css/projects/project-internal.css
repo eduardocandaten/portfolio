@@ -1,0 +1,56 @@
+.project-internal {
+  display: grid;
+  grid-template-columns: 7fr 5fr;
+  gap: 60px 40px;
+}
+
+.project-internal h2 {
+  margin-bottom: 20px;
+}
+
+.project-internal-technologies {
+  grid-column: 1 / -1;
+  justify-self: center;
+}
+
+.project-internal-technologies h2 {
+  text-align: center;
+  background: var(--gradient-y) text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 12px;
+}
+
+.project-internal-technologies ul {
+  justify-content: center;
+}
+
+.project-internal p {
+  grid-column: 1;
+}
+
+.project-results-list {
+  list-style: disc;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.project-results-list li:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+@media (width < 800px) {
+  .project-internal {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+}
+
+@media (width < 600px) {
+  .project-internal {
+    grid-template-columns: 1fr;
+  }
+
+  .project-results-list {
+    max-width: max-content;
+  }
+}

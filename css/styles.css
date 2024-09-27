@@ -1,21 +1,19 @@
-/* Globals */
+/* Global */
 @import "./global/resets.css";
 @import "./global/colors.css";
-@import "./global/sizes.css";
-@import "./global/typography.css";
-@import "./global/components.css";
+@import "./global/fonts.css";
 
-/* Header */
-@import "./header.css";
-
-/* Footer */
-@import "./footer.css";
+/* Components */
+@import "./components/conteiner.css";
+@import "./components/buttons.css";
+@import "./components/header.css";
+@import "./components/footer.css";
+@import "./components/introduction.css";
 
 /* Home */
-@import "./home/introducao.css";
-@import "./home/habilidades.css";
-@import "./home/projetos.css";
-@import "./home/formacao.css";
+@import "./home/skills.css";
+@import "./home/projects.css";
+@import "./home/training.css";
 
-/* Projeto Interno */
-@import "./projeto.css";
+/* Project Internal */
+@import "./projects/project-internal.css";

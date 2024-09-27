@@ -1,0 +1,49 @@
+.button-primary {
+  font: 400 1rem/1 "Poppins", sans-serif;
+  padding: 16px 32px;
+  background: var(--primary-1);
+  border-radius: 8px;
+  color: var(--white);
+  transition: background 0.3s;
+}
+
+.button-primary:hover {
+  background: var(--primary-2);
+}
+
+.button-secundary {
+  font: 400 1rem/1 "Poppins", sans-serif;
+  padding: 16px 32px;
+  background: var(--white);
+  border: 1px solid var(--primary-1);
+  border-radius: 8px;
+  color: var(--primary-1);
+  transition: background 0.3s, color 0.3s;
+}
+
+.button-secundary:hover {
+  background: var(--primary-1);
+  color: var(--white);
+}
+
+.button-tertiary {
+  font: 500 1rem/1 "Poppins", sans-serif;
+  background: var(--gray-1);
+  padding: 12px 20px;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.button-tertiary:hover {
+  background: var(--gray-2);
+}
+
+@media (width < 800px) {
+
+  .button-primary,
+  .button-secundary,
+  .button-tertiary {
+    font-size: 0.875rem;
+    padding: 12px 20px;
+  }
+}

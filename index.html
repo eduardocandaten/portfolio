@@ -5,343 +5,213 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Eduardo - Desenvolvedor Front End & UI Designer</title>
-  <meta name="description" content="Entre em contato para colocarmos em pratica suas ideias.">
 
-  <link rel="preload" href="./css/styles.css" as="style">
   <link rel="stylesheet" href="./css/styles.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <header class="header conteiner border-1 rounded">
-    <a href="./">
-      <svg aria-label="Eduardo" width="90" height="18" fill="#111" xmlns="http://www.w3.org/2000/svg">
-        <path d="M.40625 17V.0898438H11.6094V3.00781H3.94531V7.0625h7.23049v2.76562H3.94531V14.082h7.66409V17H.40625Zm18.11715.2578c-3.164 0-5.1093-2.4609-5.1093-6.539v-.0118c0-4.08981 1.9453-6.52731 5.1093-6.52731 1.7813 0 3.1875.91406 3.8672 2.4375h.0703V.0898438h3.4219V17h-3.4219v-2.1445h-.0703c-.6679 1.4883-2.0508 2.4023-3.8672 2.4023Zm1.1485-2.8359c1.664 0 2.8008-1.4297 2.8008-3.7031v-.0118c0-2.26169-1.1485-3.69138-2.8008-3.69138-1.6992 0-2.7774 1.39454-2.7774 3.69138v.0118c0 2.2851 1.0664 3.7031 2.7774 3.7031Zm12.7734 2.8359c-2.7656 0-4.3359-1.7695-4.3359-4.7109V4.4375h3.4218v7.3945c0 1.6407.7735 2.5899 2.3086 2.5899 1.5352 0 2.5079-1.125 2.5079-2.7657V4.4375h3.4218V17h-3.4218v-2.0742h-.0704c-.6445 1.4414-1.9335 2.332-3.832 2.332Zm13.2891-.0586c-2.5196 0-4.2188-1.582-4.2188-3.7969v-.0234c0-2.2851 1.7696-3.62109 4.8867-3.82031l3.1055-.1875v-.77343c0-1.11328-.7266-1.80469-2.0625-1.80469-1.2773 0-2.0508.59765-2.2148 1.40625l-.0235.10547h-3.1289l.0117-.14063c.1875-2.32031 2.1797-3.98437 5.4961-3.98437 3.2461 0 5.3438 1.67578 5.3438 4.20703V17h-3.4219v-1.875h-.0703c-.7148 1.2891-2.0508 2.0742-3.7031 2.0742Zm-.8321-3.9726c0 .9257.7618 1.4765 1.9454 1.4765 1.5351 0 2.6601-.9843 2.6601-2.2969v-.9023l-2.5898.1641c-1.3242.082-2.0157.6445-2.0157 1.5351v.0235ZM55.1445 17V4.4375h3.4219v2.19141h.0703c.375-1.54688 1.3945-2.44922 2.8594-2.44922.375 0 .7266.05859.9844.1289v3.01172c-.2813-.11719-.75-.1875-1.2422-.1875-1.6875 0-2.6719 1.00781-2.6719 2.83594V17h-3.4219Zm12.9727.2578c-3.1641 0-5.1094-2.4609-5.1094-6.539v-.0118c0-4.08981 1.9453-6.52731 5.1094-6.52731 1.7812 0 3.1875.91406 3.8672 2.4375h.0703V.0898438h3.4219V17h-3.4219v-2.1445h-.0703c-.668 1.4883-2.0508 2.4023-3.8672 2.4023Zm1.1484-2.8359c1.6641 0 2.8008-1.4297 2.8008-3.7031v-.0118c0-2.26169-1.1484-3.69138-2.8008-3.69138-1.6992 0-2.7773 1.39454-2.7773 3.69138v.0118c0 2.2851 1.0664 3.7031 2.7773 3.7031Zm14.2617 2.8359c-3.8203 0-6.2226-2.4492-6.2226-6.539v-.0235c0-4.04296 2.4609-6.51561 6.2109-6.51561 3.7617 0 6.2344 2.44922 6.2344 6.51561v.0235c0 4.1015-2.4258 6.539-6.2227 6.539Zm.0118-2.6836c1.664 0 2.7304-1.4062 2.7304-3.8554v-.0235c0-2.42577-1.0898-3.83202-2.7539-3.83202-1.6523 0-2.7304 1.40625-2.7304 3.83202v.0235c0 2.4609 1.0664 3.8554 2.7539 3.8554Z" />
-      </svg>
-    </a>
+  <header class="bg-white">
+    <div class="header conteiner">
+      <a class="font-primary bold font-32" href="./index.html">Eduardo</a>
 
-    <button id="button-menu" aria-controls="menu" aria-haspopup="true" aria-label="Abrir menu" aria-expanded="false"></button>
-    <nav>
-      <ul class="header-menu font-m-b" role="menu">
+      <nav class="header-menu font-primary font-16 medium">
+        <a href="./index.html#projects">Experiência</a>
+        <a href="./index.html#training">Formação</a>
+        <a href="#contact">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="introduction conteiner">
+    <h1 class="font-primary font-48 bold">Desenvolvedor Front End & UI Designer</h1>
+
+    <div class="introduction-links">
+      <a class="button-primary" href="#projects">Meus projetos</a>
+    </div>
+
+    <picture>
+      <source media="(width > 800px)" srcset="./img/devices/home.svg">
+      <img src="./img/devices/home.svg" alt="Celular e Notebook">
+    </picture>
+  </main>
+
+  <article class="skills conteiner">
+    <h2 class="font-primary font-48 bold">Minhas Habilidades</h2>
+
+    <ul>
+      <li>
+        <h3 class="font-primary font-80 bold">Moderno</h3>
+        <p class="font-secundary font-20 regular color-6">Designes modernos, limpos e feitos pensando nos seus usuários.</p>
+      </li>
+
+      <li>
+        <h3 class="font-primary font-80 bold">Rápido</h3>
+        <p class="font-secundary font-20 regular color-6">Sites feitos do zero e otimizados para ter um bom desempenho.</p>
+      </li>
+
+      <li>
+        <h3 class="font-primary font-80 bold">Responsivo</h3>
+        <p class="font-secundary font-20 regular color-6">Interfaces responsivas e adaptadas para todos os dispositivos.</p>
+      </li>
+
+      <li>
+        <h3 class="font-primary font-80 bold">Interativo</h3>
+        <p class="font-secundary font-20 regular color-6">Utilizo de animações fluidas e outras técnicas para facilitar a experiência de uso do usuário.</p>
+      </li>
+    </ul>
+  </article>
+
+  <article class="projects conteiner" id="projects">
+    <h2 class="font-primary font-48 bold">Meus Projetos</h2>
+
+    <ul class="projects-list">
+      <li class="project">
+        <img class="project-image" src="./img/projects/sidy.jpg" alt="Aplicativo de Barbearia">
+
+        <div class="project-technologies bg-white">
+          <h4 class="font-primary font-24 medium">Tecnologias usadas</h4>
+
+          <ul class="project-technologies-list">
+            <li class="button-tertiary">React</li>
+            <li class="button-tertiary">CMS</li>
+            <li class="button-tertiary">CSS</li>
+            <li class="button-tertiary">UI Design</li>
+          </ul>
+        </div>
+
+        <div class="project-content">
+          <h3 class="font-primary font-24 semibold">BarberShop</h3>
+
+          <a href="./projects/barber-shop.html">
+            <img src="./img/icons/more-blue.svg" alt="Ver mais">
+          </a>
+        </div>
+      </li>
+
+      <li class="project">
+        <img class="project-image" src="./img/projects/lucan.jpg" alt="Site de Fotografia">
+
+        <div class="project-technologies bg-white">
+          <h4 class="font-primary font-24 medium">Tecnologias usadas</h4>
+
+          <ul class="project-technologies-list">
+            <li class="button-tertiary">HTML</li>
+            <li class="button-tertiary">CSS</li>
+            <li class="button-tertiary">JavaScript</li>
+            <li class="button-tertiary">UI Design</li>
+          </ul>
+        </div>
+
+        <div class="project-content">
+          <h3 class="font-primary font-24 semibold">Lucan Studio</h3>
+
+          <a href="./projects/lucan.html">
+            <img src="./img/icons/more-blue.svg" alt="Ver mais">
+          </a>
+        </div>
+      </li>
+    </ul>
+  </article>
+
+  <article class="training conteiner" id="training">
+    <h2 class="font-primary font-48 bold">Minha Formação</h2>
+
+    <div class="training-conteiner bg-gy">
+      <h3 class="font-primary font-40 bold color-white">Código</h3>
+      <ul>
         <li>
-          <a href="#projetos">Projetos</a>
-        </li>
-        <li>
-          <a href="#formacao">Formação</a>
-        </li>
-        <li>
-          <a href="#contato">Contato</a>
-        </li>
-        <li>
-          <a href="https://wa.me/555596791161?text=Olá" target="_blank">
-            <svg aria-label="WhatsApp" width="16" height="16" fill="#111" xmlns="http://www.w3.org/2000/svg">
-              <g clip-path="url(#a)">
-                <path d="M.0032107 16 1.08481 12.0256C.372121 10.8039-.0023125 9.41439.00001075 7.99999.00001075 3.5816 3.58161 0 8.00001 0 12.4184 0 16 3.5816 16 7.99999 16 12.4184 12.4184 16 8.00001 16c-1.41378.0023-2.80268-.3719-4.024-1.084L.0032107 16ZM5.11281 4.2464c-.10331.00641-.20426.03362-.2968.08-.08679.04914-.16601.11058-.2352.1824-.096.0904-.1504.1688-.2088.2448-.29567.38479-.45471.85713-.452 1.3424.0016.392.104.7736.264 1.1304.3272.72159.8656 1.48559 1.5768 2.19359.1712.1704.3384.3416.5184.5008.88271.77721 1.9346 1.33761 3.07199 1.63681l.4552.0696c.148.008.296-.0032.4448-.0104.233-.012.4605-.0751.6664-.1848.1328-.0704.1952-.1056.3064-.176 0 0 .0344-.0224.1-.072.108-.08.1744-.1368.264-.2304.0664-.0688.124-.1496.168-.2416.0624-.1304.1248-.3792.1504-.5864.0192-.15841.0136-.24481.0112-.29841-.0032-.0856-.0744-.1744-.152-.212l-.4656-.2088s-.696-.3032-1.1208-.4968c-.0448-.01952-.0928-.03064-.1416-.0328-.05473-.00562-.11004.00054-.1622.01807-.05215.01752-.09996.046-.1402.08353v-.0016c-.004 0-.0576.0456-.636.7464-.03319.04461-.07892.07833-.13135.09685-.05243.01852-.10919.02101-.16305.00715-.05212-.01393-.10318-.03158-.1528-.0528-.0992-.0416-.1336-.0576-.20159-.0872l-.00401-.0016c-.45767-.19982-.88142-.46972-1.25599-.8-.1008-.088-.1944-.184-.2904-.2768-.31474-.30141-.58903-.64239-.816-1.01439l-.0472-.07601c-.03391-.05106-.06132-.10615-.0816-.164-.0304-.1176.0488-.21199.0488-.21199s.1944-.21281.2848-.328c.07527-.09575.1455-.19535.2104-.2984.0944-.152.124-.308.0744-.4288-.224-.5472-.456-1.092-.6944-1.6328-.0472-.1072-.1872-.184-.3144-.1992-.0432-.0048-.0864-.0096-.1296-.0128-.10744-.00534-.2151-.00347-.3224.004Z" />
-              </g>
-              <defs>
-                <clipPath id="a">
-                  <path fill="#fff" d="M0 0h16v16H0z" />
-                </clipPath>
-              </defs>
-            </svg>
+          <h4 class="font-primary font-24 medium color-white">HTML e CSS <span class="font-secundary font-16 regular color-4">/ 46h</span></h4>
+          <a href="https://www.origamid.com/certificate/7e1dc592" target="_blank">
+            <img src="./img/icons/more-white.svg" alt="Ver certificado">
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/eduardo-m%C3%BCller-candaten-b7b5a5307/" target="_blank">
-            <svg aria-label="LinkedIn" width="16" height="16" fill="#111" xmlns="http://www.w3.org/2000/svg">
-              <g clip-path="url(#a)">
-                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146Zm4.943 12.248V6.169H2.542v7.225h2.401Zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016Zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4Z" />
-              </g>
-              <defs>
-                <clipPath id="a">
-                  <path fill="#fff" d="M0 0h16v16H0z" />
-                </clipPath>
-              </defs>
-            </svg>
+          <h4 class="font-primary font-24 medium color-white">JavaScript <span class="font-secundary font-16 regular color-4">/ 74h</span></h4>
+          <a href="#">
+            <img src="./img/icons/more-white.svg" alt="Ver certificado">
           </a>
         </li>
         <li>
-          <a href="https://github.com/eduardocandaten" target="_blank">
-            <svg aria-label="GitHub" width="16" height="16" fill="#111" xmlns="http://www.w3.org/2000/svg">
-              <g clip-path="url(#a)">
-                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38 1.5884-.5357 2.9687-1.5563 3.9464-2.918C15.4741 11.3104 16 9.67631 16 8c0-4.42-3.58-8-8-8Z" />
-              </g>
-              <defs>
-                <clipPath id="a">
-                  <path fill="#fff" d="M0 0h16v16H0z" />
-                </clipPath>
-              </defs>
-            </svg>
+          <h4 class="font-primary font-24 medium color-white">React <span class="font-secundary font-16 regular color-4">/ 36h</span></h4>
+          <a href="#">
+            <img src="./img/icons/more-white.svg" alt="Ver certificado">
+          </a>
+        </li>
+        <li>
+          <h4 class="font-primary font-24 medium color-white">TypeScript <span class="font-secundary font-16 regular color-4">/ 22h</span></h4>
+          <a href="#">
+            <img src="./img/icons/more-white.svg" alt="Ver certificado">
+          </a>
+        </li>
+        <li>
+          <h4 class="font-primary font-24 medium color-white">NextJS <span class="font-secundary font-16 regular color-4">/ 22h</span></h4>
+          <a href="#">
+            <img src="./img/icons/more-white.svg" alt="Ver certificado">
+          </a>
+        </li>
+        <li>
+          <h4 class="font-primary font-24 medium color-white">CMS <span class="font-secundary font-16 regular color-4">/ 18h</span></h4>
+          <a href="#">
+            <img src="./img/icons/more-white.svg" alt="Ver certificado">
           </a>
         </li>
       </ul>
-    </nav>
-  </header>
 
-  <main class="introducao conteiner">
-    <h1 class="font-xl">Desenvolvedor Front End<br>& UI Designer</h1>
-
-    <a class="button-primary" href="#projetos">Ver meus projetos</a>
-
-    <img class="radius-1" src="./img/devices/home.svg" alt="Dispostivos">
-  </main>
-
-  <article class="habilidades conteiner" aria-labelledby="habilidades">
-    <h2 class="font-xl" id="habilidades">Minhas Habilidades</h2>
-
-    <ul>
-      <li>
-        <h3 class="font-xxxl">Moderno</h3>
-        <p class="font-l">Designes modernos, limpos e feitos pensando nos seus usuários.</p>
-      </li>
-
-      <li>
-        <h3 class="font-xxxl">Rápido</h3>
-        <p class="font-l">Sites feitos do zero e otimizados para ter um bom desempenho.</p>
-      </li>
-
-      <li>
-        <h3 class="font-xxxl">Responsivo</h3>
-        <p class="font-l">Interfaces responsivas e adaptadas para todos os dispositivos.</p>
-      </li>
-
-      <li>
-        <h3 class="font-xxxl">Interativo</h3>
-        <p class="font-l">Utilizo de animações fluidas e outras técnicas para facilitar a experiência de uso do usuário.</p>
-      </li>
-    </ul>
-  </article>
-
-  <article class="projetos conteiner" aria-labelledby="projetos">
-    <h2 class="font-xl" id="projetos">Meus Projetos</h2>
-
-    <ul>
-      <li>
-        <img src="./img/projects/sidy.jpg" alt="Aplicativo de Barbearia">
-
-        <div class="projetos-tecnologias border-1">
-          <h4 class="font-l-b">Tecnologias usadas</h4>
-
-          <ul>
-            <li>React</li>
-            <li>CMS</li>
-            <li>CSS</li>
-            <li>UI Design</li>
-          </ul>
-        </div>
-
-        <div class="projetos-content border-1">
-          <h3 class="font-l-b">Sidy BarberShop</h3>
-
-          <a href="./sidy.html">
-            <svg width="16" height="16" fill="#0088FF" xmlns="http://www.w3.org/2000/svg">
-              <rect width="16" height="2" rx="1" transform="matrix(1 0 0 -1 0 9)" />
-              <rect width="16" height="2" rx="1" transform="matrix(0 -1 -1 0 9 16)" />
-            </svg>
+      <h3 class="font-primary font-40 bold color-white">Design</h3>
+      <ul>
+        <li>
+          <h4 class="font-primary font-24 medium color-white">UI Design <span class="font-secundary font-16 regular color-4">/ 34h</span></h4>
+          <a href="https://www.origamid.com/certificate/6a85de5d" target="_blank">
+            <img src="./img/icons/more-white.svg" alt="Ver certificado">
           </a>
-        </div>
-      </li>
-
-      <li>
-        <img src="./img/projects/lucan.jpg" alt="Site de Fotografia">
-
-        <div class="projetos-tecnologias border-1">
-          <h4 class="font-l-b">Tecnologias usadas</h4>
-
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>UI Design</li>
-          </ul>
-        </div>
-
-        <div class="projetos-content border-1">
-          <h3 class="font-l-b">Lucan Studio</h3>
-
-          <a href="./lucan.html">
-            <svg width="16" height="16" fill="#0088FF" xmlns="http://www.w3.org/2000/svg">
-              <rect width="16" height="2" rx="1" transform="matrix(1 0 0 -1 0 9)" />
-              <rect width="16" height="2" rx="1" transform="matrix(0 -1 -1 0 9 16)" />
-            </svg>
+        </li>
+        <li>
+          <h4 class="font-primary font-24 medium color-white">UX Design <span class="font-secundary font-16 regular color-4">/ 16h</span></h4>
+          <a href="#">
+            <img src="./img/icons/more-white.svg" alt="Ver certificado">
           </a>
-        </div>
-      </li>
-    </ul>
-  </article>
-
-  <article class="formacao conteiner" aria-labelledby="formacao">
-    <h2 class="font-xl" id="formacao">Minha Formação</h2>
-
-    <div class="formacao-bg radius-1">
-      <div class="formacao-item">
-        <h3 class="font-xl">Código</h3>
-        <ul>
-          <li>
-            <h4 class="font-l">HTML e CSS <span class="font-m">/ 46h</span></h4>
-
-            <a href="https://www.origamid.com/certificate/7e1dc592" target="_blank">
-              <svg width="16" height="16" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
-                <rect width="16" height="2" rx="1" transform="matrix(1 0 0 -1 0 9)" />
-                <rect width="16" height="2" rx="1" transform="matrix(0 -1 -1 0 9 16)" />
-              </svg>
-            </a>
-          </li>
-
-          <li>
-            <h4 class="font-l">JavaScript <span class="font-m">/ 74h</span></h4>
-
-            <a href="" target="_blank">
-              <svg width="16" height="16" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
-                <rect width="16" height="2" rx="1" transform="matrix(1 0 0 -1 0 9)" />
-                <rect width="16" height="2" rx="1" transform="matrix(0 -1 -1 0 9 16)" />
-              </svg>
-            </a>
-          </li>
-
-          <li>
-            <h4 class="font-l">React <span class="font-m">/ 36h</span></h4>
-
-            <a href="" target="_blank">
-              <svg width="16" height="16" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
-                <rect width="16" height="2" rx="1" transform="matrix(1 0 0 -1 0 9)" />
-                <rect width="16" height="2" rx="1" transform="matrix(0 -1 -1 0 9 16)" />
-              </svg>
-            </a>
-          </li>
-
-          <li>
-            <h4 class="font-l">TypeScript <span class="font-m">/ 22h</span></h4>
-
-            <a href="" target="_blank">
-              <svg width="16" height="16" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
-                <rect width="16" height="2" rx="1" transform="matrix(1 0 0 -1 0 9)" />
-                <rect width="16" height="2" rx="1" transform="matrix(0 -1 -1 0 9 16)" />
-              </svg>
-            </a>
-          </li>
-
-          <li>
-            <h4 class="font-l">NextJS <span class="font-m">/ 22h</span></h4>
-
-            <a href="" target="_blank">
-              <svg width="16" height="16" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
-                <rect width="16" height="2" rx="1" transform="matrix(1 0 0 -1 0 9)" />
-                <rect width="16" height="2" rx="1" transform="matrix(0 -1 -1 0 9 16)" />
-              </svg>
-            </a>
-          </li>
-
-          <li>
-            <h4 class="font-l">CMS <span class="font-m">/ 18h</span></h4>
-
-            <a href="" target="_blank">
-              <svg width="16" height="16" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
-                <rect width="16" height="2" rx="1" transform="matrix(1 0 0 -1 0 9)" />
-                <rect width="16" height="2" rx="1" transform="matrix(0 -1 -1 0 9 16)" />
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="formacao-item">
-        <h3 class="font-xl">Design</h3>
-        <ul>
-          <li>
-            <h4 class="font-l">UI Design <span class="font-m">/ 34h</span></h4>
-
-            <a href="https://www.origamid.com/certificate/6a85de5d" target="_blank">
-              <svg width="16" height="16" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
-                <rect width="16" height="2" rx="1" transform="matrix(1 0 0 -1 0 9)" />
-                <rect width="16" height="2" rx="1" transform="matrix(0 -1 -1 0 9 16)" />
-              </svg>
-            </a>
-          </li>
-
-          <li>
-            <h4 class="font-l">UX Design <span class="font-m">/ 16h</span></h4>
-
-            <a href="" target="_blank">
-              <svg width="16" height="16" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
-                <rect width="16" height="2" rx="1" transform="matrix(1 0 0 -1 0 9)" />
-                <rect width="16" height="2" rx="1" transform="matrix(0 -1 -1 0 9 16)" />
-              </svg>
-            </a>
-          </li>
-
-          <li>
-            <h4 class="font-l">UI Avançado <span class="font-m">/ 30h</span></h4>
-
-            <a href="" target="_blank">
-              <svg width="16" height="16" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
-                <rect width="16" height="2" rx="1" transform="matrix(1 0 0 -1 0 9)" />
-                <rect width="16" height="2" rx="1" transform="matrix(0 -1 -1 0 9 16)" />
-              </svg>
-            </a>
-          </li>
-
-          <li>
-            <h4 class="font-l">Tipografia <span class="font-m">/ 24h</span></h4>
-
-            <a href="" target="_blank">
-              <svg width="16" height="16" fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg">
-                <rect width="16" height="2" rx="1" transform="matrix(1 0 0 -1 0 9)" />
-                <rect width="16" height="2" rx="1" transform="matrix(0 -1 -1 0 9 16)" />
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
+        </li>
+        <li>
+          <h4 class="font-primary font-24 medium color-white">UI Avançado <span class="font-secundary font-16 regular color-4">/ 30h</span></h4>
+          <a href="#">
+            <img src="./img/icons/more-white.svg" alt="Ver certificado">
+          </a>
+        </li>
+        <li>
+          <h4 class="font-primary font-24 medium color-white">Tipografia <span class="font-secundary font-16 regular color-4">/ 24h</span></h4>
+          <a href="#">
+            <img src="./img/icons/more-white.svg" alt="Ver certificado">
+          </a>
+        </li>
+      </ul>
     </div>
   </article>
 
-  <footer class="footer conteiner" id="contato">
-    <p class="footer-msg font-xl">Entre em contato para colocarmos em pratica suas ideias</p>
+  <footer class="footer conteiner" id="contact">
+    <p class="footer-msg font-primary font-32 semibold">Entre em contato para colocarmos em pratica suas ideias</p>
 
-    <div class="footer-contato">
-      <a class="font-l" href="mailto:duducandaten10@gmail.com">duducandaten10@gmail.com</a>
+    <div class="footer-contact">
+      <a class="font-secundary font-32 regular" href="mailto:duducandaten10@gmail.com" target="_blank">duducandaten10@gmail.com</a>
 
-      <a class="font-l" href="tel:+5555996791161">+55 55 99679-1161</a>
+      <a class="font-secundary font-32 regular" href="tel:+5555996791161" target="_blank">+55 55 99679-1161</a>
 
-      <div class="footer-redes">
-        <a href="https://wa.me/555596791161?text=Olá" target="_blank">
-          <svg aria-label="WhatsApp" width="24" height="24" viewBox="0 0 24 24" fill="#111111" xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_95_429)">
-              <path d="M0.00481605 24L1.62722 18.0384C0.558181 16.2058 -0.00346876 14.1216 1.61187e-05 12C1.61187e-05 5.3724 5.37241 0 12 0C18.6276 0 24 5.3724 24 12C24 18.6276 18.6276 24 12 24C9.87934 24.0034 7.796 23.4422 5.96401 22.374L0.00481605 24ZM7.66921 6.3696C7.51425 6.37922 7.36282 6.42003 7.22401 6.4896C7.09384 6.56331 6.97501 6.65547 6.87121 6.7632C6.72721 6.8988 6.64561 7.0164 6.55801 7.1304C6.11451 7.70759 5.87594 8.4161 5.88001 9.14399C5.88241 9.73199 6.03601 10.3044 6.27601 10.8396C6.76681 11.922 7.57441 13.068 8.64121 14.13C8.89801 14.3856 9.14881 14.6424 9.41881 14.8812C10.7429 16.0469 12.3207 16.8876 14.0268 17.3364L14.7096 17.4408C14.9316 17.4528 15.1536 17.436 15.3768 17.4252C15.7263 17.4071 16.0675 17.3125 16.3764 17.148C16.5756 17.0424 16.6692 16.9896 16.836 16.884C16.836 16.884 16.8876 16.8504 16.986 16.776C17.148 16.656 17.2476 16.5708 17.382 16.4304C17.4816 16.3272 17.568 16.206 17.634 16.068C17.7276 15.8724 17.8212 15.4992 17.8596 15.1884C17.8884 14.9508 17.88 14.8212 17.8764 14.7408C17.8716 14.6124 17.7648 14.4792 17.6484 14.4228L16.95 14.1096C16.95 14.1096 15.906 13.6548 15.2688 13.3644C15.2016 13.3351 15.1296 13.3184 15.0564 13.3152C14.9743 13.3068 14.8913 13.316 14.8131 13.3423C14.7349 13.3686 14.6632 13.4113 14.6028 13.4676V13.4652C14.5968 13.4652 14.5164 13.5336 13.6488 14.5848C13.599 14.6517 13.5304 14.7023 13.4518 14.7301C13.3731 14.7578 13.288 14.7616 13.2072 14.7408C13.129 14.7199 13.0524 14.6934 12.978 14.6616C12.8292 14.5992 12.7776 14.5752 12.6756 14.5308L12.6696 14.5284C11.9831 14.2287 11.3475 13.8238 10.7856 13.3284C10.6344 13.1964 10.494 13.0524 10.35 12.9132C9.8779 12.4611 9.46647 11.9496 9.12601 11.3916L9.05521 11.2776C9.00436 11.201 8.96324 11.1184 8.93281 11.0316C8.88721 10.8552 9.00601 10.7136 9.00601 10.7136C9.00601 10.7136 9.29761 10.3944 9.43321 10.2216C9.54612 10.078 9.65146 9.92858 9.74881 9.77399C9.89041 9.54599 9.93481 9.31199 9.86041 9.13079C9.52441 8.30999 9.17641 7.49279 8.81881 6.6816C8.74801 6.5208 8.53801 6.4056 8.34721 6.3828C8.28241 6.3756 8.21761 6.3684 8.15281 6.3636C7.99166 6.35559 7.83017 6.35839 7.66921 6.3696Z" />
-            </g>
-            <defs>
-              <clipPath id="clip0_95_429">
-                <rect width="24" height="24" fill="white" />
-              </clipPath>
-            </defs>
-          </svg>
-
-        </a>
-
-        <a href="https://www.linkedin.com/in/eduardo-m%C3%BCller-candaten-b7b5a5307/" target="_blank">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="#111111" xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_95_427)">
-              <path d="M0 1.719C0 0.7695 0.789 0 1.7625 0H22.2375C23.211 0 24 0.7695 24 1.719V22.281C24 23.2305 23.211 24 22.2375 24H1.7625C0.789 24 0 23.2305 0 22.281V1.719ZM7.4145 20.091V9.2535H3.813V20.091H7.4145ZM5.6145 7.773C6.87 7.773 7.6515 6.942 7.6515 5.901C7.629 4.8375 6.8715 4.029 5.6385 4.029C4.4055 4.029 3.6 4.839 3.6 5.901C3.6 6.942 4.3815 7.773 5.5905 7.773H5.6145ZM12.9765 20.091V14.0385C12.9765 13.7145 13.0005 13.3905 13.0965 13.1595C13.356 12.513 13.9485 11.8425 14.9445 11.8425C16.248 11.8425 16.7685 12.8355 16.7685 14.2935V20.091H20.37V13.875C20.37 10.545 18.594 8.997 16.224 8.997C14.313 8.997 13.4565 10.047 12.9765 10.7865V10.824H12.9525L12.9765 10.7865V9.2535H9.3765C9.4215 10.2705 9.3765 20.091 9.3765 20.091H12.9765Z" />
-            </g>
-            <defs>
-              <clipPath id="clip0_95_427">
-                <rect width="24" height="24" fill="white" />
-              </clipPath>
-            </defs>
-          </svg>
-
-        </a>
-      </div>
+      <a href="https://wa.me/555596791161?text=Olá" target="_blank">
+        <img src="./img/icons/whatsapp.svg" alt="WhatsApp" width="24" height="24">
+      </a>
+      <a href="https://www.linkedin.com/in/eduardo-m%C3%BCller-candaten-b7b5a5307/" target="_blank">
+        <img src="./img/icons/linkedin.svg" alt="LinkedIn" width="24" height="24">
+      </a>
+      <a href="https://github.com/eduardocandaten" target="_blank">
+        <img src="./img/icons/github.svg" alt="GitHun" width="24" height="24">
+      </a>
     </div>
 
-    <p class="footer-copy font-m">Eduardo Candaten © 2024 - Todos os direitos</p>
+    <p class="footer-copy font-secundary font-16 regular color-8">Eduardo Candaten © 2024 - Todos os direitos</p>
   </footer>
-
-  <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
